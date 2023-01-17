@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Usando Formulários</title>
+	</head>
+	<body>
+	<form method="post" action="obrigado.html">
+		<font face="Verdana" size="4"><b>Dados Pessoais:</b><br>
+		Nome: <input type="text" name="nomeCliente" size="25"><br>
+		E-mail:<input type="text" name="emailCliente" size="25"><br>
+		Senha:<input type="text" name="passCLiente" size="25"><br>
+		<p>
+		<font face="Verdama" size="4"><b>Avaliação e Comentários sobre o site:</b></font><br>
+		Qual sua avaliação sobre o site? <input type="radio" name="avaliacao" value="10"> Ótimo
+										 <input type="radio" name="avaliacao" value="5"> Bom
+										 <input type="radio" name="avaliacao" value="1"> Ruim<br>
+		Qual horário você acessa este site? <input type="checkbox" name="Manha" value="M"> Manhã
+											<input type="checkbox" name="Tarde" value="T"> Tarde 
+											<input type="checkbox" name="Noite" value="N"> Noite <br>
+		O que mais lhe chamou a atenção?
+						<select>
+							<option>Selecione >></option>
+							<option value="design">Design</option>
+							<option value="conteudo">Conteudo</option>
+							<option value="acess">Acessibilidade</option>
+							<option value="cores">Cores</option>
+						</select> <br>
+		Comentários sobre o sítio:
+						<textarea name="comentarios" cols="20" rows="3">Insira seu comentário.</textarea><br>
+		Envia suas sugestões: <input type="text" name="sugestoes" size="25"> <br>
+			<input type="submit" name="enviar" value="Enviar">
+			<input type="reset" name="limpar" value="Limpar"> <br>
+		</form>
+		</font>
+	</body>
+	</head>
+</html>
