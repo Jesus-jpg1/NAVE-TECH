@@ -56,7 +56,7 @@ img.content-img {
 div.content {
     background: #E5E5CB;
     display: flex;
-    margin: 24px;
+    margin: 30px;
 }
 
 .content-box {
@@ -90,6 +90,7 @@ footer {
 
 footer>div {
     text-align: center;
+    color:#D5CEA3;
 }
 
 div.market-content {
@@ -143,4 +144,39 @@ button.buy:hover {
     border-color: #3C2A21;
     color: #3C2A21;
     background-color: #f5deb3;
+}
+
+div.content-image {
+    font-size: 16px;
+    font-weight:bold;
+    font-weight: bold;
+    color:#3C2A21;
+
+    margin: 64px;
+
+    width:250px;
+    height: 300px;
+
+}
+
+div.cafe-img {
+    max-width: 180px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    background-color: #3C2A21;
+}
+
+img.cafeimgkkk {
+    max-width:170px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+img.cafeimgkkk1 {
+    width: 250px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: -350px;
 }
